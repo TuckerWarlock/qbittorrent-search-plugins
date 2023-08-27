@@ -3,8 +3,8 @@
 
 [Unofficial Search Plugins](https://github.com/qbittorrent/search-plugins/wiki/Unofficial-search-plugins)
 
-## [bitsearch.to](https://github.com/TuckerWarlock/qbittorrent-search-plugins/bitsearch.to/bitsearch.py)
+## [bitsearch.to](https://github.com/TuckerWarlock/qbittorrent-search-plugins/blob/main/bitsearch.to/bitsearch.py)
 
-## [bt4gprx.com](https://github.com/TuckerWarlock/qbittorrent-search-plugins/bt4gprx.com/bt4gprx.py)
+## [bt4gprx.com](https://github.com/TuckerWarlock/qbittorrent-search-plugins/blob/main/bt4gprx.com/bt4gprx.py)
 
-## [btdig.com](https://github.com/TuckerWarlock/qbittorrent-search-plugins/btdig.com/btdig.py)
+## [btdig.com](https://github.com/TuckerWarlock/qbittorrent-search-plugins/blob/main/btdig.com/btdig.py)
