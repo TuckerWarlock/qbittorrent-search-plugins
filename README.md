@@ -1,5 +1,6 @@
 # qbittorrent-search-plugins
 Search engine plugins for qBittorrent
+
 [Unofficial Search Plugins](https://github.com/qbittorrent/search-plugins/wiki/Unofficial-search-plugins)
 
 ## [bt4grpx](https://github.com/TuckerWarlock/qbittorrent-search-plugins/blob/main/bt4gprx.py)
