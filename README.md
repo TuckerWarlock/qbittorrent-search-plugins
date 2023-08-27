@@ -1,11 +1,10 @@
 # qbittorrent-search-plugins
-Search engine plugins for qBittorrent
+[Search engine plugins for qBittorrent](https://github.com/qbittorrent/search-plugins)
 
 [Unofficial Search Plugins](https://github.com/qbittorrent/search-plugins/wiki/Unofficial-search-plugins)
 
-## [bt4gprx](https://github.com/TuckerWarlock/qbittorrent-search-plugins/blob/main/bt4gprx.py)
-Updated version of this script https://github.com/kjjejones44/b4tg_search_plugin/blob/master/bt4g.py
+## [bitsearch.to](https://github.com/TuckerWarlock/qbittorrent-search-plugins/bitsearch.to/bitsearch.py)
 
-Uses the bt4gprx.com URL instead of bt4g.org
-- Fixed issue where magnet link was not properly generating
-- Updated regex pattern for magnet link
+## [bt4gprx.com](https://github.com/TuckerWarlock/qbittorrent-search-plugins/bt4gprx.com/bt4gprx.py)
+
+## [btdig.com](https://github.com/TuckerWarlock/qbittorrent-search-plugins/btdig.com/btdig.py)
