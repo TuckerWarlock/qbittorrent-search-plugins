@@ -59,12 +59,15 @@ class bt4gprx(object):
 
     def search(self, term, cat="all"):
         pagenumber = 1
-        while pagenumber <= 10:
-            result_page = self.search_page(term, pagenumber, cat)            
-            self.pretty_print_results(result_page)
-            if len(result_page) < 15 or int(result_page[-1]['seeders']) < 1:
+        all_results = []
+        while True:
+            result_page = self.search_page(term, pagenumber, cat)
+            if result_page:
+                all_results.extend(result_page)
+            else:
                 break
             pagenumber = pagenumber + 1
+        self.pretty_print_results(all_results)
 
     def search_page(self, term, pagenumber, cat):
         try:
@@ -97,7 +100,8 @@ class bt4gprx(object):
         return magnet
 
     def pretty_print_results(self, results):
-        for result in results:
+        sorted_results = sorted(results, key=lambda x: int(x['seeders']), reverse=True)
+        for result in sorted_results:
             magnet_link = self.download_torrent(urljoin(self.url, result['href']))
             temp_result = {
                 'name': result['title'],
@@ -105,6 +109,6 @@ class bt4gprx(object):
                 'seeds': result['seeders'],
                 'leech': result['leechers'],
                 'engine_url': self.url,
-                'link': magnet_link if magnet_link else urljoin(self.url, result['href'])
+                'link': magnet_link
             }
             prettyPrinter(temp_result)
